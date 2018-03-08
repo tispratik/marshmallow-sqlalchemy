@@ -34,13 +34,13 @@ def read(fname):
     return content
 
 setup(
-    name='marshmallow-sqlalchemy',
+    name='marshmallow-sqlalchemy-pk',
     version=__version__,
     description='SQLAlchemy integration with the marshmallow (de)serialization library',
     long_description=read('README.rst'),
     author='Steven Loria',
     author_email='sloria1@gmail.com',
-    url='https://github.com/marshmallow-code/marshmallow-sqlalchemy',
+    url='https://github.com/tispratik/marshmallow-sqlalchemy',
     packages=find_packages(exclude=("test*", )),
     package_dir={'marshmallow-sqlalchemy': 'marshmallow-sqlalchemy'},
     include_package_data=True,
